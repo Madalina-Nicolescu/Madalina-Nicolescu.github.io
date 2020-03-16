@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <title>Cocafe</title>
+        <meta charset="UTF-8">
+		<meta name="author" content="Cocafe">
+		<meta name="keywords" content="cafea, cafenea, Bucuresti, timp liber, bistro, gustari, ceai ">
+        <meta name="description" content="Cafeneaua ta preferata din Bucuresti">
+        <link rel="stylesheet" type="text/css" href="stil_pag.css">
+        
+    </head>
+
+    <body style="background-color: #479877;">
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <header>
+
+        <div class="bg_img">
+            <div class="container">  
+                <nav >
+                    <ul class="meniu">
+                        <li> <a href="#">Home</a></li>
+                        <li><a href="Meniu.html">Meniu</a>
+                            <ul class="submeniu">
+                                <li><a href="Meniu.html">Cafea</a></li>
+                                <li><a href="Meniu.html">Gustari</a></li>
+                            </ul>
+                        
+                        </li>
+                        <li> <a href="#gallery">Gallery</a></li>
+                        <li> <a href="Evenimente.html">Events</a></li>
+                        <li><a href="Contact.html">Contact</a></li> 
+                    </ul>
+                </nav>
+                
+            </div>  
+        </div>
+
+        
+
+        <script>
+            var mybutton = document.getElementById("myBtn");
+            
+           
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+        
+            
+        </header>
+        <main>
+            <img src="Cocafe1.jpg" style="float:right; width: 400px; height: 600px;">
+
+            <h1>Cocafe</h1>
+            <section>
+                <h2>Despre noi</h2>
+                <p>Povestea Cocafe inseamna o stare. O stare pe care o ai cand patrunzi in lumea cafelei, a prajiturilor de casa si prilejul pentru o clipa de liniste.</p>
+                <p>Dincolo de savoarea cafelei – un prieten si povesti de viata. O muzica suava, atat cat iti trebuie pentru a te indeparta de cotidian.</p>
+                <p>La Cocafe te simti ca acasa, eliberat de griji si dispus pentru un moment de rasfat.</p>
+                <p>Cafeaua isi face efectul, iar noi ne deschidem sufletul catre frumos si ne permitem sa redevenim mai senini.</p>
+            </section>
+
+              
+        </main>
+        <footer>
+            Ne gasesti pe <address>Strada Cafelei, nr. 30 </address>.
+        </footer>
+    </body>
+
+
+</html>
