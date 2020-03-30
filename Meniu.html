@@ -16,27 +16,57 @@
 
 <body>
 
+    <header>
 
-    <div class="bg_img">
-        <div class="container">  
-            <nav>
-                <ul>
-                    <li> <a href="index.html">Home</a></li>
-                    <li><a href="Meniu.html">Meniu</a>
-                        <ul>
-                            <li><a href="Meniu.html">Cafea</a></li>
-                            <li><a href="Meniu.html">Gustari</a></li>
-                        </ul>
+    <div class="container">  
+        <nav>
+            <ul class="meniu">
+                <li> <a href="#">Home</a></li>
+                <li class="drop"> Meniu
+                    <ul class="submeniu">
+                        <li><a href="Meniu.html">Cafea</a></li>
+                        <li><a href="Meniu.html">Gustari</a></li>
+                    </ul>
                     
-                    </li>
-                    <li> <a href="#gallery">Gallery</a></li>
-                    <li> <a href="Evenimente.html">Events</a></li>
-                    <li><a href="Contact.html">Contact</a></li> 
-                </ul>
-            </nav>
-            
-        </div>  
+                </li>
+                <li> <a href="Galerie.html">Gallery</a></li>
+                <li> <a href="Evenimente.html">Events</a></li>
+                <li><a href="Contact.html">Contact</a></li> 
+            </ul>
+        </nav>
     </div>
+</header>
+<main>
+
+
+    <table>
+        <tr>
+            <th>Cocafe-Meniu</th>
+        </tr>
+        <tr>
+            <td id="cafea">Cafea
+                <ul id="de-ascuns">
+                        <li>Espresso</li>
+                        <li>Americano</li>
+                        <li>Latte Macchiato</li>
+                        <li>Cafe Latte</li>
+                        <li>Toffee Latte</li>
+                        <li>Cappucino Vienez</li>
+                        <li>Frappe</li>        
+                </ul>
+            </td>
+            
+        </tr>
+        <tr>
+            <td>Ceai</td>
+        </tr>
+        <tr>
+            <td>Sucuri naturale</td>
+        </tr>
+        <tr>
+             <td>Gustari</td>
+        </tr>
+    </table>
 
     <h1>Meniu</h1>
     <section>
@@ -78,11 +108,24 @@
     </section>
 
 
-    <footer>
-        Ne gasesti pe <address>Strada Cafelei, nr. 30 </address>.
-
-    </footer>
-
+    <section id="contact">
+        <h3>Unde ne gasesti?</h3>
+        <div id="content_contact">
+        <address>Strada Cafelei, nr. 30 </address>
+        <a href="mailto:cocafe@coffe.com">cocafe@coffee.com</a>
+        <div>
+            <h3>
+              Social media
+            </h3>
+            <ul>
+              <li><i class="fab fa-facebook-square"></i></li>
+              <li><i class="fab fa-instagram-square"></i></li>
+              <li><i class="fab fa-twitter-square"></i></li>
+            </ul>
+          </div>
+        </div>
+    </section>
+</main>
 </body>
 
 

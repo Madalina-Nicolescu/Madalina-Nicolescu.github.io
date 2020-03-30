@@ -1,0 +1,39 @@
+<style>
+
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    position: relative;
+    margin: 0px;
+    width: 100%;
+}
+.nav {
+    float: right;
+    position: fixed;
+    list-style: none;
+    *zoom: 1;
+    background:#175e4c;
+}
+.nav:before,
+.nav:after {
+    content: " "; 
+    display: table; 
+}
+.nav:after {
+    clear: both;
+}
+nav ul{
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+
+
+
+</style>
