@@ -70,14 +70,14 @@
     transform: scale(1.3);
 } 
 
-#galerie_animata_950{
+#galerie_animata_950,#galerie_animata_400{
     display: none;
 }
 
 
 @media screen and (max-width:950px)
 {
-    #Imagini{
+    #Imagini,#galerie_animata_400{
         display: none;
     }
     #galerie_animata_950{
@@ -140,6 +140,80 @@
     */
     
     @keyframes gal_exemplu{ 
+        0% {z-index:10;opacity:1;} /*perioada 0-5% in care se afiseaza fara efect */
+        5% {opacity:1;}
+        13%{opacity:1;} /* de  aici doresc sa descresc si opacitatea;*/
+        20%{z-index:10;opacity:0;}
+        20.1%{z-index:-1;}/* il ascund cat mai in spate sa nu vina peste imaginile care erau mai sus in html decat el*/
+        79.999999%{opacity:1;z-index:-1;}	
+        80%{z-index:0;}/*setez z-index la 0 ca sa revina la ordinea normala de afisare*/
+        100%{opacity:1;z-index:0;}
+    }
+}
+
+@media screen and (max-width:400px)
+{
+
+    #Imagini{
+        display: none;
+    }
+    #galerie_animata_950{
+        display: none !important;
+    }
+
+    #galerie_animata_400{
+        z-index: 0;
+        background-color: #479877;
+        display:inline !important;
+        width:200px;
+        height:200px;
+        border:1px solid black;
+        border-radius: 40px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        position:relative;
+        overflow: hidden;
+        margin-bottom:5rem;
+    }
+    
+    #galerie_animata_400 div{
+        position:relative;
+        width:200px;
+        height:200px;
+    }
+    #galerie_animata_400{
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: middle;
+        top:50vh;
+    }
+    
+    #galerie_an_400 div{	
+        position: absolute;
+        animation-name:gal_exemplu_400;
+        animation-timing-function:linear;
+        animation-iteration-count:infinite;
+        animation-duration:20s;	
+        transform-origin:0px center;
+    }
+    #galerie_an_400 div:nth-of-type(5){
+        animation-delay:0s;
+    }
+    #galerie_an_400 div:nth-of-type(4){
+        animation-delay:4s;
+    }
+    #galerie_an_400 div:nth-of-type(3){
+        animation-delay:8s;
+    }
+    #galerie_an_400 div:nth-of-type(2){
+        animation-delay:12s;
+    }
+    #galerie_an_400 div:nth-of-type(1){
+        animation-delay:16s;
+    }
+    
+
+
+    @keyframes gal_exemplu_400{ 
         0% {z-index:10;opacity:1;} /*perioada 0-5% in care se afiseaza fara efect */
         5% {opacity:1;}
         13%{opacity:1;} /* de  aici doresc sa descresc si opacitatea;*/
