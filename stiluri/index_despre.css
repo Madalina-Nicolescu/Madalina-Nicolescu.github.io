@@ -1,0 +1,132 @@
+.top{
+    background-image: url('../imagini/cocafe1.jpg') ;
+    background-size: auto;
+    top:0px;
+    left: 0px;
+    display: block;
+    position: absolute;
+    width: 100vw;
+    height: 600px;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    
+}
+.topcont{
+    align-self: center;
+    border: 1px solid white;
+    background-color: rgba(235, 214, 177, 0.7);
+    border-radius: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.);
+    text-align: center;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:40vh;
+    width: 40vw;
+    height: 150px;
+    justify-self: center;
+    transition: ease-in-out 0.2s;
+    
+
+}
+.topcont:hover{
+    transform: scale(1.1);
+}
+
+#despre{
+    background-color: rgb(71, 152, 119, 0.5);
+    background-blend-mode:darken;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.);
+    display: flex;
+    position: relative;
+    vertical-align: middle;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    top:100vh;
+}
+
+section#despre img{
+
+    display: inline;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    border-radius: 40px;
+    width: 30vw;
+    position: relative;
+    height: 400px;
+    align-self: center;
+}
+#despre div{
+    margin-left: 5vw;
+    width: 30vw;
+    display: inline;
+    word-wrap: break-word;
+    background-color:rgb(71, 152, 119) ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+@media screen and (max-width:700px)
+{
+    .top{
+        background-image: url('cocafe1 - Copy.jpg') ;
+        background-size: auto;
+        top:0px;
+        left: 0px;
+        display: block;
+        position: absolute;
+        width: 100vw;
+        height: 350px;
+        z-index: 1;
+        align-items: center;
+        justify-content: center;
+    }
+    .topcont{
+        align-self: center;
+        border: 1px solid white;
+        background-color: rgba(235, 214, 177, 0.7);
+        border-radius: 80px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.);
+        text-align: center;
+        padding-top: 0;
+        padding-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:20vh;
+        width: 40vw;
+        height: 70px;
+        justify-self: center;
+        font-size: 13px;
+        
+    
+    }
+    #despre{
+        display: block;
+        top:50vh;
+    }
+    section#despre img{
+
+        display: inline;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        margin-left: 5vh;
+        margin-right: auto;
+        border-radius: 40px;
+        width: 80vw;
+        height: 250px;
+        position: relative;;
+        align-self: center;
+    }
+
+    #despre div{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80vw;
+        display: block;
+        word-wrap: normal;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}

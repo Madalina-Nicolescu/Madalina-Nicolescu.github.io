@@ -1,0 +1,87 @@
+#container-animatie{
+    position: relative;
+    overflow:hidden;
+    width: 100vw;
+    height: 430px;
+    box-sizing: content-box;
+    background-color: rgb(71, 152, 119, 0.6);
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+#derulant
+{
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    animation-name: go;
+    animation-direction:normal ;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+
+    
+}
+
+#derulant>*{
+    flex-shrink: 0;
+    position: relative;
+}
+
+#container_animatie *{
+    height:100%;
+    width:100%;
+}
+@keyframes go{
+    0%{
+        left:100%;
+    }
+    100%{
+        left:-350%;
+
+    }
+}
+
+#ev{
+    background-color: rgb(71, 152, 119, 0.6);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+#ev>section{
+    flex-basis:0;
+    flex-grow:1;
+    margin-left:0.5em;
+    margin-bottom:0;
+    padding:0.4em;
+    border: 1px solid #487977;
+    border-radius: 20px;
+    height: 300px;
+    text-align: center;
+    background-color: rgb(255,255,255,0.7);
+    padding-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#contact>h3,#content_contact{
+    top:40vh;
+}
+
+@media screen and (max-width:1100px)
+{
+    #ev{
+        display: inline-block;
+    }
+    #ev>section{
+        margin-top: 0.8em;
+        height: auto;
+        font-size: large;
+    }
+}

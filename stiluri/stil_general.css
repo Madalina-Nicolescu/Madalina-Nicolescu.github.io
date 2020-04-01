@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../imagini/fundal2.jpg");
+    background-repeat: repeat;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow-x: hidden;
+    
+}
+main {
+
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin: 0px;
+    width: 100vw;
+}
+h1,h2,p{
+padding-left: 20px;
+padding-right: 20px;
+}
+#contact>h3{
+    width: 100vw;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    top:150vh;
+    background-color: #479877;
+    margin-bottom: 0;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+#content_contact
+{
+    background-color: #479877;
+    display: flex;
+    width: 100vw;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    top:150vh;
+}
+
+#contact a{
+    text-decoration: none;
+    color: black;
+    transition: ease-in-out 0.2s;
+}
+#contact a:hover{
+    transform: scale(1.1);
+}
+
+#contact div ul{
+
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding:0;
+  }
+  #contact div i{
+    font-size: 3vw;
+    transition: ease-in-out 0.3s;
+  }
+
+@media screen and (max-width:700px)
+{
+    #contact>h3{
+        padding-top: 20px;
+        font-size: 20px;
+        top:100vh;
+    }
+    #content_contact{
+        top:100vh;
+        font-size: 10px;
+    }
+}  

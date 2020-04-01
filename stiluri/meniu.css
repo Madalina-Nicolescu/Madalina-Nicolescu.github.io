@@ -1,0 +1,77 @@
+
+    table{
+        border-collapse: collapse;
+        display: block;
+        width: 100vw;
+    }
+    th{
+        display: none;
+    }
+ 
+    td{
+        width: 100px;
+        height: 200px;
+        text-align: center;
+        padding: 50px;
+        border: 1px solid white;
+        background-color: #479877;
+        border-radius: 10px;
+        color: beige;
+        font-size: large;
+        
+    }
+    td{
+        animation-name: randuri;
+        animation-timing-function:linear;
+        animation-fill-mode: forwards;
+        animation-duration:2.5s;	
+    }
+    td h2{
+        color: #ddd;
+        text-decoration: underline;
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+    td ul
+    {
+        list-style: none;
+        
+    }
+
+    td ul li{
+        margin-bottom: 7px;
+        color: #ddd;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 100;
+    }
+    #Cafea,#Ceai,#Suc{
+        border: 1px solid white;
+        background-color: #3C8064;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        box-sizing: content-box;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    }
+    
+   
+    @keyframes randuri
+    {
+        0%{
+            opacity: 0.4;
+        }
+        100%{
+            width: 100vw;
+            opacity:1
+        }
+    }
+    #contact>h3,#content_contact{
+        top:40vh;
+    }
+
+    @media screen and (max-width:500px)
+    {
+        td{
+            font-size: medium;
+        }
+    }
