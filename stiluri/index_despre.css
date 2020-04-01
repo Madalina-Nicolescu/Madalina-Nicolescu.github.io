@@ -71,7 +71,7 @@ section#despre img{
 @media screen and (max-width:700px)
 {
     .top{
-        background-image: url('cocafe1 - Copy.jpg') ;
+        background-image: url('../imagini/cocafe1 - Copy.jpg') ;
         background-size: auto;
         top:0px;
         left: 0px;
