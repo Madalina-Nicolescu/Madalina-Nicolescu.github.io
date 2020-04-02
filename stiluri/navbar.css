@@ -24,11 +24,13 @@ nav ul{
     margin: 0;
     padding: 0;
     list-style: none;
+    text-align: right;
+    margin-right: 15px;
 
 }
 
 nav li{
-    float : right;
+    
     margin-right: 40px;
     display:inline-block;
     margin-left:70px ;
@@ -37,11 +39,12 @@ nav li{
 }
 
 nav li a, .drop{
-    display: block;
+    display: inline-block;
     color: #ddd; 
     text-decoration: none ;  
     text-transform: uppercase;
     font-size: 14px;
+    float : right;
 }
 
 .submeniu
@@ -51,6 +54,8 @@ nav li a, .drop{
     background-color: #479877 ;
     width: 100px;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
 
 }
 
@@ -64,7 +69,7 @@ nav li a, .drop{
     text-decoration: none ;  
     text-transform: uppercase;
     font-size: 14px;
-    text-align: center;
+    text-align: left;
 }
 
 .drop:hover .submeniu{
@@ -114,17 +119,24 @@ nav a:hover::before,.drop:hover::before{
         box-sizing: border-box;
         background-color:#479877 ;
         top:0;
+        
     }
 
     nav li{
         margin-right: 15px;
-        display:flex;
+        display:inline-block;
         margin-left:10px ;
         padding-top: 10px;
         position: relative;
     }
     nav li a, .drop{
-        font-size: 9px;
+        font-size: 13px;
+        float: right;
+        margin-right: 5px;
+    }
+    nav ul{
+        text-align: right;
+        margin-right: 15px;
     }
     .submeniu{
         padding-top: 10px;
@@ -136,5 +148,24 @@ nav a:hover::before,.drop:hover::before{
         text-align: center;
         height: 20px;
         
+    }
+}
+
+@media screen and (max-width:500px)
+{
+    nav{
+        height: 50px;
+        float: none;
+    }
+    nav ul{
+        text-align: center;
+        margin-right: 15px;
+    }
+    nav li{
+        padding-top: 20px;
+        margin-right: 10px;
+    }
+    nav li a,.drop{
+        font-size:11px;
     }
 }
