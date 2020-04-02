@@ -17,7 +17,7 @@
     border: 1px solid white;
     background-color: rgba(235, 214, 177, 0.7);
     border-radius: 80px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
     text-align: center;
     padding-top: 40px;
     margin-left: auto;
@@ -37,7 +37,7 @@
 #despre{
     background-color: rgb(71, 152, 119, 0.5);
     background-blend-mode:darken;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
     display: flex;
     position: relative;
     vertical-align: middle;
@@ -66,6 +66,9 @@ section#despre img{
     background-color:rgb(71, 152, 119) ;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+#despre h6{
+    display: none;
+}
 
 
 @media screen and (max-width:700px)
@@ -88,7 +91,7 @@ section#despre img{
         border: 1px solid white;
         background-color: rgba(235, 214, 177, 0.7);
         border-radius: 80px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
         text-align: center;
         padding-top: 0;
         padding-bottom: 40px;
