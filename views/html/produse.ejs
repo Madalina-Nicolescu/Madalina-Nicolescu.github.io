@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+
+<head>
+    <title>Cocafe-Meniu</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Cocafe">
+    <meta name="viewport" content="width=device-width">
+	<meta name="keywords" content="cafea, cafenea, Bucuresti, timp liber, bistro, gustari, ceai ">
+    <meta name="description" content="Alege cafeaua ta preferata">
+    <link rel="stylesheet" type="text/css" href="/stiluri/stil_general.css">
+    <link rel="stylesheet" type="text/css" href="/stiluri/navbar.css">
+    <link rel="stylesheet" type="text/css" href="/stiluri/produse.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/imagini/favicon.ico"/>    
+
+    <script src="js/ejs.min.js"></script>
+    <script src = "js/cumpara.js"></script>
+    <script src = "js/colorare.js"></script>
+    <script src = "js/dotted.js"></script>
+    <script src="js/script.js"></script>
+    
+</head>
+
+
+<body>
+    <%- include('../fragmente/header.ejs') %>
+    <main>
+        <div id="nr"> </div>
+        <div id = "prod">
+        <h1>Produse</h1>
+        <div id ="formulare">
+        <form class="sortare" method="get">
+            <select id = "sort" name="orderby" class="orderby" aria-label="Comanda">
+                <option value = "menu_order">Sortare implicita</option>
+                <option value="date">Sorteaza dupa cele mai recente</option>
+                <option value="price">Sorteaza dupa pret: crescator</option>
+                <option value = "price-desc">Sorteaza dupa pret: descrescator</option>
+            </select>
+            <input type="hidden" name = "paged" value="1">
+        </form>
+        <form class="calculare" method="get">
+            <select id="calc" name="orderby" class="orderby" aria-label="Comanda">
+                <option value = "scump">Care este cel mai scump produs?</option>
+                <option value="ieftin">Care este cel mai ieftin produs?</option>
+                <option value="recent">Care este cel mai recent adaugat produs?</option>
+                
+            </select>
+            <input type="hidden" name = "paged" value="1">
+        </form> 
+        <form class="filtrare" method="get">
+            <select id="filt" name="orderby" class="orderby" aria-label="Comanda">
+                <option value = "Toate produsele">Toate produsele</option>
+                <option value="Cafea">Cafea</option>
+                <option value="Ceai">Ceai</option>
+                <option value = "Suc">Suc</option>
+            </select>
+            <input type="hidden" name = "paged" value="1">
+        </form>
+
+    </div>
+    <div>
+    <div class="afis" id="afisTemplate">
+    </div>
+</div>
+</div>
+</main>
+    <%- include('../fragmente/footer.ejs') %>
+
+</body>
+
+
+
+</html>

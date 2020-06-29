@@ -1,0 +1,128 @@
+{"produse": [
+{
+"nume": "Latte",
+"descriere": "Cafea cu spuma delicata de lapte",
+"gramaj": "300 mL",
+"alergeni": "lapte",
+"pret": "12 RON",
+"numar bucati" : 1
+},
+
+{
+"nume": "Espresso",
+"descriere": "Cafea cu gust puternic",
+"gramaj": "100 mL",
+"alergeni": "nu are",
+"pret": "7 RON",
+"numar bucati" : 1
+},
+
+{
+"nume": "Americano",
+"descriere": "Cafea",
+"gramaj": "250 mL",
+"alergeni": "nu are",
+"pret": "7 RON",
+"numar bucati" : 1
+},
+
+{
+"nume": "Cappuccino",
+"descriere": "Cafea cu gust delicat si aroma de alune de padure",
+"gramaj": "300 mL",
+"alergeni": "alune, lapte",
+"pret": "10 RON",
+"numar bucati" : 1
+},
+
+{
+"nume": "Cold Brew",
+"descriere": "Cafea rece",
+"gramaj": "350 mL",
+"alergeni": "nu are",
+"pret": "10 RON",
+"numar bucati" : 1
+},
+
+{
+"nume": "Ceai",
+"descriere": "Ceai de fructe de padure, lamaie si ghimbir, verde, nergu, portocale",
+"gramaj": "250 mL",
+"alergeni": "nu are",
+"pret": "10 RON",
+"numar bucati" : 1
+},
+
+{
+"nume": "Limonada",
+"descriere": "Simpla cu miere sau zahar, capsuni, cirese, fructe de padure, fructul pasiunii, trandafir",
+"gramaj": "300 mL",
+"alergeni": "nu are",
+"pret": "12 RON",
+"numar bucati" : 1
+},
+
+{
+"nume": "Sandwich cu sunca de curcan",
+"descriere": "Paine proaspata, salata, rosii si sunca de curcan",
+"gramaj": "400 g",
+"alergeni": "nu are",
+"pret": "10 RON",
+"numar bucati" : 1
+},
+
+{
+"nume": "Briose",
+"descriere": "Briose de ciocolata sau vanilie cu crema fina",
+"gramaj": "100 g",
+"alergeni": "alune, lapte",
+"pret": "10 RON",
+"numar bucati" : 2
+},
+
+{
+"nume": "Cheesecake cu fructe de padure",
+"descriere": "Prajitura cu crema fina de branza si fructe proaspete",
+"gramaj": "350 g",
+"alergeni": "nu are",
+"pret": "14 RON",
+"numar bucati" : 1
+},
+{
+"nume": "Biscuiti cu fulgi de ciocolata",
+"descriere": "Biscutiti cu ciocolata",
+"gramaj": "50 g",
+"alergeni": "nu are",
+"pret": "10 RON",
+"numar bucati" : 3
+
+},
+{
+"nume": "Tiramisu",
+"descriere": "Tiramisu cu crema de mascarpone si frisca",
+"gramaj": "300 g",
+"alergeni": "frisca",
+"pret": "15 RON",
+"numar bucati" : 1
+}
+]}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

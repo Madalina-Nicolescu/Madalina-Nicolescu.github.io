@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <title>Cocafe</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Cocafe">
+        <meta name="viewport" content="width=device-width">
+		<meta name="keywords" content="cafea, cafenea, Bucuresti, timp liber, bistro, gustari, ceai ">
+        <meta name="description" content="Cafeneaua ta preferata din Bucuresti">
+        <link  rel="stylesheet" type="text/css" href="/stiluri/stil_general.css"/>
+        <link rel="stylesheet" type="text/css" href="/stiluri/navbar.css"/>
+        <link rel="stylesheet" type="text/css" href="/stiluri/index_despre.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"/>
+        <link rel="shortcut icon" type="image/x-icon" href="/imagini/favicon.ico"/>
+        <script src = "js/words.js"></script>
+        <script src="js/inactivity.js"></script>
+        <script src = "js/active.js"></script>
+    </head>
+
+    <body> 
+
+        
+    <%- include('../fragmente/header.ejs') %>
+    
+    <main>
+
+      
+        <section class="top">
+            <div class="topcont">
+                <h2>Cocafe</h2>
+                <h4>Cafeaua ta preferata</h4>
+            </div>
+        </section>   
+        
+        <section id="despre">
+        <h6>Despre</h6>    
+        <img src="/imagini/Cocafe3.jpg" alt = "Cea mai buna cafea din oras" >
+        <div>
+
+            <h2>Despre noi</h2>
+            
+                <p id = "aparitie">Povestea Cocafe inseamna o stare.<br>
+                     O stare pe care o ai cand patrunzi in lumea cafelei, a prajiturilor de casa si prilejul pentru o clipa de liniste.<br>
+                     Dincolo de savoarea cafelei – un prieten si povesti de viata.<br>
+                     O muzica suava, atat cat iti trebuie pentru a te indeparta de cotidian. La Cocafe te simti ca acasa, eliberat de griji si dispus pentru un moment de rasfat.<br>
+                     Cafeaua isi face efectul, iar noi ne deschidem sufletul catre frumos si ne permitem sa redevenim mai senini.</p>
+        </div>
+        </section> 
+
+        <div id="inactiv">
+            <p id = "secunde"></p>
+                
+        </div>
+    
+        <section id="contact">
+            <h3>Unde ne gasesti?</h3>
+            <div id="content_contact">
+            <address>Strada Cafelei, nr. 30 </address>
+            <a href="mailto:cocafe@coffe.com">cocafe@coffee.com</a>
+            <div>
+                <h3>
+                  Social media
+                </h3>
+                <ul>
+                  <li><i class="fa fa-facebook"></i></li>
+                  <li><i class="fa fa-instagram"></i></li>
+                  <li><i class="fa fa-twitter"></i></li>
+                </ul>
+              </div>
+              
+            </div>
+            <div id ="nr_cuv" style = " 
+            height: 50px;
+            padding-bottom: 20px;"></div>
+        </section>
+
+
+    </main>
+   
+   <%- include('../fragmente/footer.ejs') %>
+   
+    </body>
+
+
+</html>

@@ -1,0 +1,120 @@
+
+ .date input,.date button {
+	 border: none;
+	 outline: none;
+	 background: none;
+	 font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+ 
+#nastere, #data_nastere
+{
+	
+	margin-right: auto;
+	margin-bottom: 60px;
+	
+}
+
+#nastere
+{
+	height: 50px;
+    border: 4px #479877 dotted;
+    width: 670px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ddd;
+    padding-left: 20px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+ .date {
+	position: relative;
+    width: 640px;
+    height: 100%;
+    transition: transform 1.2s ease-in-out;
+    padding: 50px 30px 0;
+    background-color: #479877;
+	margin-left: auto;
+    margin-right: auto;
+	border-radius: 20px;
+	padding-bottom: 20px;
+}
+ 
+ .date button {
+	 display: block;
+	 margin: 0 auto;
+	 width: 260px;
+	 height: 36px;
+	 border-radius: 30px;
+	 color: #fff;
+	 font-size: 15px;
+	 cursor: pointer;
+	 background-color: #ddd;
+    margin-top: 15px;
+}
+
+
+
+ h2 {
+	 width: 100%;
+	 font-size: 26px;
+	 text-align: center;
+}
+ .date label {
+	display: flex;
+    width: 260px;
+    margin: 25px auto 0;
+    text-align: center;
+}
+ .date label span {
+	 font-size: 12px;
+	 color: #cfcfcf;
+	 text-transform: uppercase;
+}
+ .date input {
+	 display: block;
+	 width: 100%;
+	 margin-top: 5px;
+	 padding-bottom: 5px;
+	 font-size: 16px;
+	 border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+	 text-align: center;
+}
+
+#field {
+    height: 300px;
+	border: 20px double;
+    position: relative;
+	width: 300px;
+    margin-left: 40px;
+    margin-right: auto;
+  }
+  
+  #cup1 {
+    position: absolute;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+  }
+  #cup2
+  {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      height: 100px;
+    width: 100px;
+  }
+
+  #cont
+  {
+	display: flex;
+    margin-top: 200px;
+	background-color: aliceblue;
+	
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+  #cont section
+  {
+	margin-left: 50px;
+  }

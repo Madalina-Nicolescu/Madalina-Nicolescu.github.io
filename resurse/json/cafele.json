@@ -1,0 +1,129 @@
+{
+  "cafele": [
+    {
+      "nume": "Latte",
+      "tip": "Cafea",
+      "descriere": "Cafea cu spuma delicata de lapte",
+      "gramaj": "300 mL",
+      "alergeni": "lapte",
+      "pret": 12,
+      "data": "2019-02-20"
+    },
+
+    {
+      "nume": "Espresso",
+      "tip": "Cafea",
+      "descriere": "Cafea cu gust puternic",
+      "gramaj": "100 mL",
+      "alergeni": "nu are",
+      "pret": 7,
+      "data": "2020-01-20"
+    },
+
+    {
+      "nume": "Americano",
+      "tip": "Cafea",
+      "descriere": "Cafea",
+      "gramaj": "250 mL",
+      "alergeni": "nu are",
+      "pret": 7,
+      "data": "2019-12-20"
+    },
+
+    {
+      "nume": "Cappuccino",
+      "tip": "Cafea",
+      "descriere": "Cafea cu gust delicat si aroma de alune de padure",
+      "gramaj": "300 mL",
+      "alergeni": "alune, lapte",
+      "pret": 10,
+      "data": "2019-11-30"
+    },
+
+    {
+      "nume": "Cold Brew",
+      "tip": "Cafea",
+      "descriere": "Cafea rece",
+      "gramaj": "350 mL",
+      "alergeni": "nu are",
+      "pret": 10,
+      "data": "2019-09-20"
+    },
+
+    {
+      "nume": "Ceai de fructe de padure",
+      "tip": "Ceai",
+      "descriere": "Ceai de fructe de padure, lamaie si ghimbir, verde, nergu, portocale",
+      "gramaj": "250 mL",
+      "alergeni": "nu are",
+      "pret": 10,
+      "data": "2019-05-20"
+    },
+    {
+      "nume": "Ceai de menta",
+      "tip": "Ceai",
+      "descriere": "Ceai de fructe menta",
+      "gramaj": "250 mL",
+      "alergeni": "nu are",
+      "pret": 8,
+      "data": "2020-11-20"
+    },
+    {
+      "nume": "Ceai de ghimbir",
+      "tip": "Ceai",
+      "descriere": "Ceai de fructe ghimbir",
+      "gramaj": "250 mL",
+      "alergeni": "nu are",
+      "pret": 10,
+      "data": "2019-04-20"
+    },
+    {
+      "nume": "Limonada",
+      "tip": "Suc",
+      "descriere": "Simpla cu miere sau zahar, capsuni, cirese, fructe de padure, fructul pasiunii, trandafir",
+      "gramaj": "300 mL",
+      "alergeni": "nu are",
+      "pret": 12,
+      "data": "2019-03-20"
+    },
+
+    {
+      "nume": "Suc de portocale",
+      "tip": "Suc",
+      "descriere": "Fresh de portocale",
+      "gramaj": "300 mL",
+      "alergeni": "nu are",
+      "pret": 8,
+      "data": "2019-08-20"
+    },
+    {
+      "nume": "Limonada cu capsuni",
+      "tip": "Suc",
+      "descriere": "Limonada cu capsuni",
+      "gramaj": "300 mL",
+      "alergeni": "nu are",
+      "pret": 15,
+      "data": "2019-11-20"
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,106 @@
+
+
+    button{
+        text-align: center;
+        font-size: large;
+        border-radius: 10px;
+        color: white;
+        background-color: #479877;
+        text-transform: uppercase;
+        width: 400px;
+        height: 180px;
+        transition-duration: 0.5s;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        margin-top: 20px;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        padding-top: 82px;
+
+    }
+
+
+    button:hover {
+        background-color:white; /* Green */
+        color:#479877;
+        font-size: x-large;
+      }
+
+    table{
+        border-collapse: collapse;
+        display: block;
+        width: 100vw;
+    }
+    th{
+        display: none;
+    }
+ 
+    td{
+        width: 100px;
+        height: 200px;
+        text-align: center;
+        padding: 50px;
+        border: 1px solid white;
+        background-color: #479877;
+        border-radius: 10px;
+        color: beige;
+        font-size: large;
+        
+    }
+    td{
+        animation-name: randuri;
+        animation-timing-function:linear;
+        animation-fill-mode: forwards;
+        animation-duration:2.5s;	
+    }
+    td h2{
+        color: #ddd;
+        text-decoration: underline;
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+    td ul
+    {
+        list-style: none;
+        
+    }
+
+    td ul li{
+        margin-bottom: 7px;
+        color: #ddd;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 100;
+    }
+    #Cafea,#Ceai,#Suc{
+        border: 1px solid white;
+        background-color: #3C8064;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        box-sizing: content-box;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    }
+    
+   
+    @keyframes randuri
+    {
+        0%{
+            opacity: 0.4;
+        }
+        100%{
+            width: 100vw;
+            opacity:1
+        }
+    }
+    #contact>h3,#content_contact,#nr_cuv{
+        top:40vh;
+    }
+
+    @media screen and (max-width:500px)
+    {
+        td{
+            font-size: small;
+        }
+    }

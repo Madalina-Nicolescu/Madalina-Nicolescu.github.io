@@ -1,0 +1,30 @@
+{
+  "name": "cafea",
+  "version": "1.0.0",
+  "description": "site pentru o cafenea",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Madalina-Nicolescu/TehniciWeb.git"
+  },
+  "keywords": [
+    "cafea",
+    "cafenea",
+    "eveniment"
+  ],
+  "author": "madalina nicolescu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Madalina-Nicolescu/TehniciWeb/issues"
+  },
+  "homepage": "https://github.com/Madalina-Nicolescu/TehniciWeb#readme",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "formidable": "^1.2.2"
+  }
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+
+<head>
+    <title>Cocafe-Meniu</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Cocafe">
+    <meta name="viewport" content="width=device-width">
+	<meta name="keywords" content="cafea, cafenea, Bucuresti, timp liber, bistro, gustari, ceai ">
+    <meta name="description" content="Alege cafeaua ta preferata">
+    <link rel="stylesheet" type="text/css" href="/stiluri/stil_general.css">
+    <link rel="stylesheet" type="text/css" href="/stiluri/navbar.css">
+    <link rel="stylesheet" type="text/css" href="/stiluri/meniu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/imagini/favicon.ico"/> 
+    <script src = "js/words.js"></script>
+    <script src="js/inactivity.js"></script>
+    <script src = "js/active.js"></script>
+   
+
+</head>
+
+
+<body>
+    <%- include('../fragmente/header.ejs') %>
+   
+<main>
+
+    <div id="inactiv">
+        <p id = "secunde"></p>
+            
+    </div>
+
+    
+
+    
+
+    <table>
+        <tbody>
+        <tr>
+            <th>Cocafe-Meniu</th>
+        </tr>
+        <tr>
+            <td>
+            <div id="Cafea">
+                <h2>Cafea</h2>
+                <ul id="cafea">
+                        <li>Espresso..............5 lei</li>
+                        <li>Americano.............5 lei</li>
+                        <li>Latte Macchiato.......5 lei</li>
+                        <li>Cafe Latte............5 lei</li>
+                        <li>Cappucino Vienez......5 lei</li>
+                        <li>Frappe................5 lei</li>        
+                </ul>
+            </div>
+            </td>
+            
+        </tr>
+        <tr>
+            <td>
+            <div id="Ceai">
+                <h2>Ceai</h2>
+                <ul id="ceai">
+                    <li>Ceai verde.........5 lei</li>
+                    <li>Ceai negru.........5 lei</li>
+                    <li>Ceai cu menta......5 lei</li>
+                    <li>Ceai cu fructe.....5 lei</li>
+                </ul>
+            </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <div id="Suc">
+               <h2>Sucuri naturale</h2>
+               <ul id="suc">
+                <li>Limonada cu menta........5 lei</li>
+                <li>Fresh de portocale.......5 lei</li>
+                <li>Super fruits smoothie....5 lei</li>
+                <li>Passion spice smoothie...5 lei</li>
+                <li>Green love smoothie......5 lei</li>
+            </ul> 
+            </div>
+            </td>
+        </tr>
+    </tbody>
+    </table>
+
+    <script src = "js/reverse.js"></script>
+
+    <button onclick="window.location.href='/produse'">Comanda</button>
+    
+
+    <section id="contact">
+        <h3>Unde ne gasesti?</h3>
+        <div id="content_contact">
+        <address>Strada Cafelei, nr. 30 </address>
+        <a href="mailto:cocafe@coffe.com">cocafe@coffee.com</a>
+        <div>
+            <h3>
+              Social media
+            </h3>
+            <ul>
+                <li><i class="fa fa-facebook"></i></li>
+                <li><i class="fa fa-instagram"></i></li>
+                <li><i class="fa fa-twitter"></i></li>
+            </ul>
+          </div>
+        </div>
+        <div id ="nr_cuv" style = " 
+		height: 50px;
+		padding-bottom: 20px;"></div>
+    </section>
+</main>
+<%- include('../fragmente/footer.ejs') %>
+
+</body>
+
+
+
+</html>

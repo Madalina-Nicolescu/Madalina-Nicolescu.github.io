@@ -1,0 +1,105 @@
+button
+{
+	margin-left: 20px;
+}
+#nr
+{
+	float: right;
+    margin-left: 30px;
+    background-color: azure;
+    width: 300px;
+    padding-top: 10px;
+    height: 30px;
+    border: 2px aquamarine dotted;
+}
+
+
+.templ_cafea.sel
+{
+	background-color: #0b241a;
+}
+
+.templ_cafea.dotted
+{
+	border:5px dotted#ddd;
+}
+
+.templ_cafea{
+	background-color: #479877;
+	border:5px solid #ddd;
+	padding:0.4em;
+	color: #ddd;
+	margin-left: 100px;
+    margin-right: 100px;
+	margin-bottom: 20px;
+	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+#afisaj
+{
+	margin-left: 30px;
+    background-color: azure;
+    width: 200px;
+    padding-top: 10px;
+    height: 30px;
+    border: 2px aquamarine dotted;
+}
+
+.sortare
+{
+	float: right;
+	margin-bottom: 7px;
+}
+
+.ascunde
+{
+	display: none;
+}
+
+select
+{
+	border-color: #c7c5c4;
+	color: #a6a19f;
+    background-color: #fff;
+    border: 2px solid #d5dedf;
+	font-size: .889em;
+	border-width: 1px!important;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-appearance: none;
+	width: 150px;
+    height: 35px;
+	margin-left: 100px;
+	margin-right: 150px;
+	
+}
+.filtrare
+{
+	width: 40px;
+	height: 40px;
+}
+
+form{
+	margin-bottom: 10px;
+}
+
+h1{
+	text-align: center;
+    text-transform: uppercase;
+    font-family: initial;
+	text-decoration: underline;
+	padding-top: 50px;
+   
+}
+
+#prod
+{
+	background-color: rgb(71, 152, 119, 0.5);
+	padding-bottom: 20px;
+}
+
+#formulare
+{
+	display: flex;
+}

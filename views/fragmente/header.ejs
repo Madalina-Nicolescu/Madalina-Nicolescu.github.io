@@ -1,0 +1,43 @@
+ <header>
+
+        <div class="container">
+           
+            <nav>
+                <% if(!locals.username) {  %>
+                    <form method="post" action="/login">
+                        <label>
+                                Username: <input type="text" name="username" value="">
+                            </label>
+                            <label>
+                                Parola: <input type="password" name="parola" value="">
+                            </label>
+                            <input type="submit" value="OK">
+                    </form>
+                    <% }
+                    else { %>
+                        <div class="logout">
+                    Buna, <%= locals.username  %>!
+                    <a href="/logout">Logout</a>
+                </div>
+                    <% } %>
+                <ul id="meniu">
+                    <li class="btn"> <a href="/index">Home</a></li>
+                    <li class="drop btn"> Meniu
+                        <ul class="submeniu">
+                            <li><a href="/meniu">Cafea</a></li>
+                            <li><a href="/meniu">Ceai</a></li>
+                            <li><a href="/meniu">Suc</a></li>
+                        </ul>
+                        
+                    </li>
+                    <li class="btn"> <a href="/galerie">Gallery</a></li>
+                    <li class="btn"> <a href="/evenimente">Events</a></li>
+                    <li class="btn"><a href="/contact">Contact</a></li> 
+                </ul>
+            </nav>
+                
+        </div>  
+       
+
+        
+    </header>

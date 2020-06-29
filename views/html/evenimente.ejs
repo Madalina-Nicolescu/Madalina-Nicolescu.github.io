@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+
+<head>
+    <title>Cocafe-Evenimente</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Cocafe">
+        <meta name="viewport" content="width=device-width">
+		<meta name="keywords" content="cafea, cafenea, Bucuresti, timp liber, bistro, gustari, ceai ">
+        <meta name="description" content="Programeaza un eveniment la Cocafe">
+        <link rel="stylesheet" type="text/css" href="/stiluri/stil_general.css">
+        <link rel="stylesheet" type="text/css" href="/stiluri/navbar.css">
+        <link rel="stylesheet" type="text/css" href="/stiluri/evenimente.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" type="image/x-icon" href="/imagini/favicon.ico"/>
+        <script src = "js/words.js"></script>
+        <script src="js/inactivity.js"></script>
+        <script src = "js/typewrite.js"></script>
+        <script src = "js/active.js"></script>
+</head>
+
+<body>
+    
+    <%- include('../fragmente/header.ejs') %>
+    <main>
+
+        <div id="inactiv">
+            <p id = "secunde"></p>
+                
+        </div>
+
+
+        <section id="galerie-animata">
+            <h6>Galerie animata</h6>
+            <div id="container-animatie">
+                <div id="derulant">
+                    <figure>
+                        <img src="/imagini/derulant1.jpg" alt="Nu se poate afisa galeria derulanta">
+                    </figure>
+                    <figure>
+                        <img src="/imagini/derulant2.jpeg" alt="Nu se poate afisa galeria derulanta">
+                    </figure>
+                    <figure>
+                        <img src="/imagini/derulant3.jpg" alt="Nu se poate afisa galeria derulanta">
+                    </figure>
+                    <figure>
+                        <img src="/imagini/derulant4.jpg" alt="Nu se poate afisa galeria derulanta">
+                    </figure>
+                    <figure>
+                        <img src="/imagini/derulant5.jpg" alt="Nu se poate afisa galeria derulanta">
+                    </figure>
+
+                </div>
+            </div>
+        </section>
+        <section id="ev">
+            <h6>Descriere</h6>
+            <section id="aniversari">
+                <h2>Aniversari</h2>
+                <p id = "aparitie1"></p>
+
+            </section>
+            <section id="ev-cp">
+                <h2>Evenimente corporate</h2>
+                <p id = "aparitie2"></p>
+               
+            </section>
+        </section>
+
+        <section id="contact">
+            <h3>Unde ne gasesti?</h3>
+            <div id="content_contact">
+            <address>Strada Cafelei, nr. 30 </address>
+            <a href="mailto:cocafe@coffe.com">cocafe@coffee.com</a>
+            <div>
+                <h3>
+                  Social media
+                </h3>
+                <ul>
+                    <li><i class="fa fa-facebook"></i></li>
+                    <li><i class="fa fa-instagram"></i></li>
+                    <li><i class="fa fa-twitter"></i></li>
+                </ul>
+              </div>
+            </div>
+            <div id ="nr_cuv" style = " 
+		height: 50px;
+		padding-bottom: 20px;"></div>
+        </section>
+
+    </main>
+    <%- include('../fragmente/footer.ejs') %>
+</body>
+
+
+
+</html>

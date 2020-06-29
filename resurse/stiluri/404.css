@@ -1,0 +1,34 @@
+body{
+    background-image: url('../imagini/fundal.jpg');
+    background-size: auto;
+        top:0px;
+        left: 0px;
+        display: block;
+        position: absolute;
+        width: 100vw;
+        height: 350px;
+        z-index: 1;
+        align-items: center;
+        justify-content: center;
+}
+.err{
+    align-self: center;
+    border: 1px solid white;
+    background-color: #5e3916;
+    border-radius: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:40vh;
+    width: 40vw;
+    height: 150px;
+    justify-self: center;
+    transition: ease-in-out 0.2s;
+    
+
+}
+.err:hover{
+    transform: scale(1.1);
+}

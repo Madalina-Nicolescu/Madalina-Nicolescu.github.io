@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <title>Cocafe-Contact</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Cocafe">
+        <meta name="viewport" content="width=device-width">
+		<meta name="keywords" content="cafea, cafenea, Bucuresti, timp liber, bistro, gustari, ceai ">
+        <meta name="description" content="Programeaza un eveniment la Cocafe">
+		<link rel="stylesheet" type="text/css" href="/stiluri/stil_general.css">
+		<link rel="stylesheet" type="text/css" href="/stiluri/contact.css">
+        <link rel="stylesheet" type="text/css" href="/stiluri/navbar.css">
+       
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="shortcut icon" type="image/x-icon" href="/imagini/favicon.ico"/>
+		<script src = "js/words.js"></script>
+		<script src="js/inactivity.js"></script>
+		<script src = "js/active.js"></script>
+		<script src = "js/age.js"></script>
+		
+		
+</head>
+
+<body>
+    <%- include('../fragmente/header.ejs') %>
+            
+    <main>
+
+    <section>
+
+		<div id="inactiv">
+            <p id = "secunde"></p>
+                
+		</div>
+		
+
+		<div id = "nastere">
+			<div id = "data_nastere">
+				Data nasterii: <input type ="text" name = "nastere">
+			
+			<button onclick="varsta()">Calculeaza varsta</button>
+		</div>
+		<p id="varsta"></p>
+	</div>
+
+		<% if(!locals.rsstatus) { %><!-- verific daca status e definit-->
+		<form method="post" action="/inreg" class="date">
+		
+			<p>
+			<label>
+				Username: <input type="text" name="username" value="">
+			</label>
+			</p>
+			<p>
+			<label>
+				Nume: <input type="text" name="nume" value="">
+			</label>
+			</p>
+			<p>
+			<label>Oras:
+				<select name="oras">
+					<option value="Bucuresti">Bucuresti</option>
+					<option value="Iasi" selected>Iasi</option>
+					<option value="Constanta" >Constanta</option>
+					<option value="Timisoara">Timisoara</option>
+					<option value="Cluj">Cluj</option>
+				</select>
+			</label>
+			</p>
+			<p>
+			<label>
+				Parola: <input type="password" name="parola" value="">
+			</label>
+			</p>
+			<p>
+			<label>
+				Reintroduceti parola: <input type="password" name="rparola" value="">
+			</label>
+			</p>
+			<p>
+			<label>
+				Email: <input type="text" name="email" value=""  size="50">
+			</label>
+			</p>
+			<button>		
+			<input type="submit" value="Submit">
+			</button>
+		</form>
+		<% } else if(rsstatus=="ok"){ %>
+			<p>Date introduse</p>
+		<% } else {%>
+			<p>Eroare</p>
+		<% } %>
+		
+
+
+    </section>
+
+	<section id = "cont">
+	<section>
+	<div id="field">
+		<img src="/imagini/clip52.png"  id="cup1" >
+		<img src="/imagini/clip5.png"  id="cup2" >
+	  </div>
+	</section>
+	<script src = "js/animate.js"></script>
+	<section>
+		<h2>Cum ne poti gasi?</h2>
+		<ul>
+			<li>Telefon:0722.222.222</li>
+			<li>Mail:cocaffe@cocaffe.com</li>
+		</ul>
+	</section>
+</section>
+	 
+
+	<section id="contact">
+		<h3>Unde ne gasesti?</h3>
+		<div id="content_contact">
+		<address>Strada Cafelei, nr. 30 </address>
+		<a href="mailto:cocafe@coffe.com">cocafe@coffee.com</a>
+		<div>
+			<h3>
+			  Social media
+			</h3>
+			<ul>
+			  <li><i class="fa fa-facebook"></i></li>
+			  <li><i class="fa fa-instagram"></i></li>
+			  <li><i class="fa fa-twitter"></i></li>
+			</ul>
+		  </div>
+		</div>
+		<div id ="nr_cuv" style = " 
+		height: 50px;
+		padding-bottom: 20px;"></div>
+	</section>
+
+
+    </main>
+
+    
+	<%- include('../fragmente/footer.ejs') %>
+
+
+</body>
+
+
+
+
+
+</html>
